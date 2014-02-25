@@ -15,7 +15,8 @@
 */
 
 new PrintByPreset(1).print();
-
+// imageprinter color is now auto printing
+/*
 // wait 3 seconds
 $.sleep(3000);
 
@@ -37,7 +38,7 @@ var title = "Click ok to continue";
                             w.center(); \
                             okButton.onClick = function() { \
                                 w.close(); \
-                                #include \"/g/jdforsythe/Settings/Photoshop Scripts/global/CopySetting_Dollar.jsx\"; \
+                                #include \"/g/jdforsythe/Settings/Photoshop Scripts/CopySetting/CopySetting_Dollar_Premier.jsx\"; \
                             }; \
                             w.center(); \
                             w.show(); \
@@ -46,3 +47,4 @@ var title = "Click ok to continue";
                             okButton.active = true;";
             bt.body = func;
             bt.send();
+*/            
